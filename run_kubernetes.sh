@@ -4,24 +4,24 @@
 
 # Step 1:
 # This is your Docker ID/path
-kubectl delete pod microservice-project
-dockerpath=babyd/microservices
+# kubectl delete pod microservices
+
+# dockerpath=microservices
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run microservice-project\
-    --image=$dockerpath\
-    --port=80 --labels app=microservice-project
+kubectl run microservices --image=babyd/microservices:microservice-project --port=80
 
 # Step 3:
 # List kubernetes pods
-kubectl get pods --all-namespaces
+kubectl get pods 
 
 
 # Step 4:
 # Forward the container port to a host
 # kubectl expose deployment babyd/microservices --type=LoadBalancer --port=8000 --target-port=80 --name=kubernetes
-kubectl port-forward microservice-project 8000:80
+
+kubectl port-forward microservices 8000:80
 
 
 

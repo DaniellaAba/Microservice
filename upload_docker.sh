@@ -7,7 +7,7 @@
 # Create dockerpath
 # dockerpath=<your docker ID/path>
 # dockerpath=369c88436d87
-dockerpath=babyd/microservices:microservice-project
+dockerpath = babyd/microservices:microservice-project
 
 # Step 2:  
 # Authenticate & tag
