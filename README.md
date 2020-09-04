@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+<!-- <include a CircleCI status badge, here> -->
+[![DaniellaAba](https://circleci.com/gh/DaniellaAba/Microservice.svg?style=svg)](https://app.circleci.com/pipelines/github/DaniellaAba)
 
 ## Project Overview
 
@@ -41,4 +42,3 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Create Flask app in Container
 * Run via kubectl
 
-[![CircleCI](https://circleci.com/gh/circleci/Microservice.svg?style=svg)](https://app.circleci.com/pipelines/github/DaniellaAba)
